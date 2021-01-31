@@ -94,6 +94,9 @@ public class FXMLDocumentController implements Initializable {
                     btn_login.getScene().getWindow().hide();
                     Parent root = FXMLLoader.load(getClass().getResource("CPanelAdmin.fxml"));
                     Stage mainStage = new Stage();
+                    mainStage.setResizable(false);
+                    mainStage.centerOnScreen();
+                    mainStage.setTitle("Tours'Exam");
                     Scene scene = new Scene(root);
                     mainStage.setScene(scene);
                     mainStage.show();
@@ -103,6 +106,9 @@ public class FXMLDocumentController implements Initializable {
                     btn_login.getScene().getWindow().hide();
                     Parent root = FXMLLoader.load(getClass().getResource("CPanelSco.fxml"));
                     Stage mainStage = new Stage();
+                    mainStage.setResizable(false);
+                    mainStage.centerOnScreen();
+                    mainStage.setTitle("Tours'Exam");
                     Scene scene = new Scene(root);
                     mainStage.setScene(scene);
                     mainStage.show();
@@ -112,6 +118,9 @@ public class FXMLDocumentController implements Initializable {
                     btn_login.getScene().getWindow().hide();
                     Parent root = FXMLLoader.load(getClass().getResource("CPanelSecr.fxml"));
                     Stage mainStage = new Stage();
+                    mainStage.setResizable(false);
+                    mainStage.centerOnScreen();
+                    mainStage.setTitle("Tours'Exam");
                     Scene scene = new Scene(root);
                     mainStage.setScene(scene);
                     mainStage.show();
