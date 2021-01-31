@@ -15,7 +15,7 @@ public class mysqlconnect {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/app_exam","root","");
-            JOptionPane.showMessageDialog(null, "Connexion avec la base de donnée effectué");
+            JOptionPane.showMessageDialog(null, "Connexion avec la base de données effectué");
             return conn;
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e);
