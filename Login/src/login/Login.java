@@ -18,6 +18,7 @@ public class Login extends Application {
         
         Scene scene = new Scene(root);   
         stage.setScene(scene);
+        stage.setTitle("Tours'Exam");
         stage.setResizable(false);
         stage.centerOnScreen();
         stage.show();
