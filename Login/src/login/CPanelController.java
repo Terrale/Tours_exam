@@ -26,6 +26,7 @@ public class CPanelController implements Initializable {
         btn_logout.getScene().getWindow().hide();
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         Stage mainStage = new Stage();
+        mainStage.setTitle("Tours'Exam");
         Scene scene = new Scene(root);
         mainStage.setScene(scene);
         mainStage.setResizable(false);
